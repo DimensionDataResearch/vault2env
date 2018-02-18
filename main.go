@@ -20,7 +20,6 @@ func main() {
 	flag.BoolVar(&showHelp, "help", false, "Show usage information.")
 	flag.StringVar(&secretPath, "secret-path", "", "The path, in vault, of the target secret.")
 	flag.StringVar(&prefix, "prefix", "", "A prefix to add to each environment variable's name.")
-	flag.StringVar(&prefix, "prefix", "", "A prefix to add to each environment variable's name.")
 	flag.StringVar(&format, "format", "bash", "The environment variable format (bash, powershell, or powershell-env).")
 	flag.Parse()
 
